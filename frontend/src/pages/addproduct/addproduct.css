@@ -1,0 +1,25 @@
+
+.flex-col {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+}
+
+.inputAddProduct {
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-size: large;
+}
+
+.buttonAddProduct {
+    height: 30px;
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+}

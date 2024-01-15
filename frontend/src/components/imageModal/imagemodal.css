@@ -1,0 +1,37 @@
+.imagemodalcontainer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    box-sizing: content-box;
+}
+
+.image-modal-inner-container {
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 2px black;
+}
+
+.imagecontainer {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeIcon {
+    cursor: pointer;
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}

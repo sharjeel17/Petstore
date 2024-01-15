@@ -1,0 +1,51 @@
+.editModalContainer {
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-sizing: content-box;
+}
+
+.innerContainer {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 2px black;
+}
+
+.closeIcon {
+    cursor: pointer;
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.editModalForm {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    height: 100%;
+}
+
+.inputEditModal {
+    padding-left: 4px;
+    height: 30px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.buttonSave {
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
