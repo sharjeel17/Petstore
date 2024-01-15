@@ -4,7 +4,6 @@ import React, {
     useContext,
     useEffect,
     useMemo,
-    useRef,
     useState,
 } from "react";
 import { AuthContextValueType } from "../types/global.types";
@@ -18,7 +17,6 @@ type Props = {
 export const AuthProvider = ({children}: Props) =>{
 
     const [token, _setToken] = useState(localStorage.getItem("token"));
-    const ref = useRef<null | number>(null);
 
     const setToken = (newToken: string) => {
         _setToken(newToken);
